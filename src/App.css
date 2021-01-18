@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .footer{
+    background-color: #30CC95;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+    color: white
   }
-}
+  .white{
+      color: white;
+  }
+  .jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    /* background: #1C7A59 ; */
+    color: #184d3a;
+  }
+  
+  address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+  }
+  
+  .navbar-dark {
+    background-color: #30CC95;
+  }
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .repo-text {
+    font-weight: 600;
+  }
+  .repo-description {
+    font-weight: 400;
+    font-style: italic;
+    color: var(--basic-color);
+  }
+  .list-head {
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .footer {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .list {
+    list-style: circle;
+  }
